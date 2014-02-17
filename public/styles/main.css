@@ -5,12 +5,12 @@
 }
 body {
   height: 100%;
-  width: 100%;
+  width: 50%;
   padding-left: 3em;
   font-size: 1.8em;
   line-height: 1.6;
-  width: 50%;
   background: url("../images/me-fire-escape.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 a {
   text-decoration: none;
@@ -55,6 +55,7 @@ h2 {
 .mySite {
   background: rgba(204,204,204,0.7);
   font-size: 60%;
+  font-weight: bold;
   height: 1.8em;
   vertical-align: middle;
 }
@@ -81,4 +82,41 @@ h2 {
 }
 .flickr {
   background: rgba(255,0,132,0.7);
+}
+@media screen and (max-width: 600px) {
+  body {
+    padding-left: 0;
+  }
+  li {
+    width: 100%;
+    line-height: 2em;
+  }
+  h1 {
+    font-size: 50%;
+  }
+}
+@media only screen (-moz-min-device-pixel-ratio: 2),screen and (-o-min-device-pixel-ratio: 2/1),screen and (-webkit-min-device-pixel-ratio: 2),screen and (min-device-pixel-ratio: 2) {
+  body {
+    width: 100%;
+    padding-left: 0;
+    font-size: 5em;
+    background-color: #333;
+    background: none;
+  }
+  li {
+    width: 100%;
+    line-height: 1.2em;
+    font-size: 2em;
+  }
+  .mySite {
+    font-size: 1em;
+    line-height: 2em;
+  }
+  header {
+    font-size: 1.5em;
+    color: #34495e;
+  }
+  h2 {
+    color: RGBA(221, 221, 221, 1);
+  }
 }
