@@ -1,6 +1,7 @@
 * {
   font-family: 'helvetica';
   color: #666;
+  box-sizing: border-box;
 }
 body {
   height: 100%;
@@ -22,9 +23,18 @@ ul {
   margin: 0 0 2em 0;
 }
 li {
+  transition: all 0.5s ease;
   width: 30%;
   text-align: center;
   cursor: pointer;
+  border-color: rgba(220,220,200,0);
+  border-width: 1px;
+  border-style: solid;
+}
+li:hover {
+  border-color: #000;
+  border-width: 1px;
+  border-style: solid;
 }
 header {
   font-size: 3em;
