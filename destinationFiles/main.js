@@ -1,0 +1,1 @@
+$(document).ready(function(){$('section[data-type="background"]').each(function(){var e=$(this);$(window).scroll(function(){var e=-($window.scrollTop()/$bgobj.data("speed")),t="50% "+e+"px";$bgobj.css({backgroundPosition:t})})})});document.createElement("article");document.createElement("section");
