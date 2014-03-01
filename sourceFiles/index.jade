@@ -11,37 +11,52 @@ body
       h1.
         Andrew Landry - javascript developer
 
-
-
-  section(id="about" data-type="background" data-speed="10" class="pages")
+  section(id="links" data-type="background" data-speed="10" class="pages")
     article
       h1.
         find me on the internets
       #linkList
         ul
-          li(class="mySite"): a(href="http://andrew-landry.com") Bits
-          li(class="gitHub"): a(i class="fa fa-github" href="https://github.com/andyroo2000")
-          li(class="stackOverflow"): a(i class="fa fa-stack-overflow" href="http://stackoverflow.com/users/2608514/andrew-landry")
-          li(class="twitter"): a(i class="fa fa-twitter" href="https://twitter.com/Bits_and_Beeps")
-          li(class="youtube"): a(i class="fa fa-youtube" href="http://www.youtube.com/user/AndrewLandry")
-          li(class="vimeo"): a(i class="fa fa-vimeo-square" href="https://vimeo.com/andrewlandry")
-          li(class="fourSquare"): a(i class="fa fa-foursquare" href="https://foursquare.com/androidland")
-          li(class="instagram"): a(i class="fa fa-instagram" href="http://instagram.com/andrewlandry")
-          li(class="flickr"): a(i class="fa fa-flickr" href="http://www.flickr.com/photos/androidland")
+          li(id="mySite"): a(href="http://andrew-landry.com") Bits
+          li(id="gitHub"): a(i class="fa fa-github" href="https://github.com/andyroo2000")
+          li(id="stackOverflow"): a(i class="fa fa-stack-overflow" href="http://stackoverflow.com/users/2608514/andrew-landry")
+          li(id="twitter"): a(i class="fa fa-twitter" href="https://twitter.com/Bits_and_Beeps")
+          li(id="youtube"): a(i class="fa fa-youtube" href="http://www.youtube.com/user/AndrewLandry")
+          li(id="vimeo"): a(i class="fa fa-vimeo-square" href="https://vimeo.com/andrewlandry")
+          li(id="fourSquare"): a(i class="fa fa-foursquare" href="https://foursquare.com/androidland")
+          li(id="instagram"): a(i class="fa fa-instagram" href="http://instagram.com/andrewlandry")
+          li(id="flickr"): a(i class="fa fa-flickr" href="http://www.flickr.com/photos/androidland")
 
+  section(id="projects" data-type="background" data-speed="10" class="pages")
+    article
+      #projectLinks
+        p#various various projects
+        .eachProject
+          ul
+            li(id="loremKlosterman"): a(href="http://andrewlandry.com/ipsum-klosterman") Lorem Klosterman
+          p.
+            a lorem-ipsum generator that generates dummy text in the style of Chuck Klosterman.
+          ul
+            li(id="expressToDo"): a(href="https://github.com/andyroo2000/ExpressAngularTodo") To-do List
+          p.
+            a to-do list app made with Angular.js on the front-end and an API made with Express.js 
+          ul
+            li(id="coffeeCalculator"): a(href="http://sleepy-coast-8211.herokuapp.com") coffee calculator
+          p.
+            an app built using jQuery that calculates the correct ratio of coffee to water by: weight
+          ul
+            li(id="MeteorList"): a(href="http://andyroo2000-todo-list.meteor.com") meteor.js to-do list
+          p.
+            an app built using jQuery that calculates the correct ratio of coffee to water by: weight
+          ul
+            li(id="jekyll"): a(href="http://andyroo2000.github.io") Jekyll blog
+          p.
+            my first coding blog made with the Jekyll blogging engine and styled from scratch using Sass.
 
-
-
-
-  section(id="links" data-type="background" data-speed="10" class="pages")
+  section(id="email" data-type="background" data-speed="10" class="pages")
     article
       h1#mail
         a(href="mailto:andrewlandry@gmail.com") email me
-
-
-
-
-
 
 
   footer

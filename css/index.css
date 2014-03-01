@@ -19,39 +19,6 @@ h1 {
   top: 150px;
   width: 100%;
 }
-#projects {
-  background: url("images/nyc.jpg") 50% 0 no-repeat fixed;
-  min-height: 1000px;
-  background-size: cover;
-  margin: 0 auto;
-  position: relative;
-}
-#projects {
-  right: 0;
-}
-#projects article {
-  height: 458px;
-  position: absolute;
-  text-align: center;
-  bottom: 0px;
-  width: 100%;
-}
-#projectLinks {
-  text-align: left;
-  position: absolute;
-  bottom: 0;
-}
-#projectLinks li {
-  background: RGBA(235, 244, 246, 0.7);
-  text-align: left;
-  padding: 1em 1.5em 2em 0em;
-  font-size: 2em;
-}
-.eachProject {
-  font-size: 1em;
-  color: RGBA(255, 255, 255, 1);
-  background: RGBA(235, 244, 246, 0.3);
-}
 #links {
   background: url("images/field.jpg") 50% 0 no-repeat fixed;
   min-height: 1000px;
@@ -121,38 +88,32 @@ a:active,
 a:visited {
   color: #fff;
 }
-#various {
-  color: #fff;
-  font-size: 4em;
-  font-weight: bold;
-  padding: 0 0 0.5em 0;
-}
 #linklist {
   bottom: 0px;
   float: right;
   position: absolute;
 }
-#gitHub {
+.gitHub {
   background: rgba(128,128,128,0.7);
 }
-#twitter {
+.twitter {
   background: rgba(0,172,237,0.7);
 }
-#youtube {
+.youtube {
   background: rgba(187,0,0,0.7);
 }
-#vimeo {
+.vimeo {
   background: rgba(170,212,80,0.7);
 }
-#stackOverflow {
+.stackOverflow {
   background: rgba(224,135,73,0.7);
 }
-#fourSquare {
+.fourSquare {
   background: rgba(0,114,177,0.7);
 }
-#instagram {
+.instagram {
   background: rgba(81,127,237,0.7);
 }
-#flickr {
+.flickr {
   background: rgba(255,0,132,0.7);
 }
